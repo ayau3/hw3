@@ -1,0 +1,12 @@
+background(0);
+stroke(255)
+noFill()
+rect(10, 10, width-20, height-20)
+ellipse(width/2, width/2, width-20, height-20)
+line(width/2, 10, 10, height-10)
+line(width/2, 10, height-10, width-10)
+line(width/4, 10, 10, height-10)
+line(width/4, 10, width/4, height-10)
+line(width*3/4, 10, width*3/4, height-10)
+line(width*3/4, 10, width-10, height-10)
+line(width-10, 10, width*3/4, height-10)
